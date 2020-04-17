@@ -28,4 +28,4 @@ function BitmapHoles(strArr) {
   }
      
   let arr = ["01111", "01101", "00011", "11110"]
-  console.log(BitmapHoles(arr));
+  console.log(BitmapHoles(arr)); //result 3
