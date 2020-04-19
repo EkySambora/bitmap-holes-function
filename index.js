@@ -7,7 +7,7 @@ function BitmapHoles(strArr) {
       for (var i=0; i < strArr.length; i++){
           strArr[i] = strArr[i].split('');
           for (var j=0; j < strArr[i].length; j++){
-              if (strArr[i][j] === "0"){
+              if (strArr[i][j] === "0"){ 
                   index.push([i, j]);
               }
           }   
